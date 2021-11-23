@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Test</title>
+</head>
+<body>
+    <div class="main">
+      <button class="popup__open-button">Кликни</button>  
+    </div>
+
+    <div class="popup__bg">
+        <div class="popup">
+            <div class="popup__left">
+                <h1>Получите набор файлов для руководителя:</h1>
+                <img class="popup__icons" src="./img/icom.png" alt="icon">
+                <img class="popup__img" src="./img/file.png" alt="file" >
+            </div>
+            <div class="popup__right">
+                <form class="form form__desctop">
+                    <label for="form-email">Введите Email для получения файлов:</label>
+                    <input type="email" name="email" placeholder="E-mail" id="form-email">
+                    <label for="form-phone">Введите телефон для подтверждения доступа:</label>
+                    <input type="tel" name="phone" placeholder="+7 (000) 000-00-00" required="required" minlength="17" class="form__phone-field" id="form-phone">
+                    <button type="submit" class="form__submit">
+                        <span>Скачать файлы</span>
+                        <img src="./img/pointer.png" alt="pointer">
+                    </button>
+                    <p class="form__after-text">
+                        <span>PDF 4,7 MB</span>
+                        <span>DOC 0,8 MB</span>
+                        <span>XLS 1,2 MB</span>
+                    </p>
+                </form>
+            </div>
+            
+            <div class="popup__close-button"><svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="5.644mm" height="5.644mm">
+               <image  x="0px" y="0px" width="16px" height="16px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA51BMVEXvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxv///+vk+4fAAAAS3RSTlMAyYQLKrqY94Mry8pw9IkILc7PNnT1ginULnL5hwUszdAz/YElMQNz+Ju/BGvAKOWWxO1/Bwkmx3b2yAF3hdUwfgrROAJ5i9M1+9kzHIP9AAAAAWJLR0RM928Q8wAAAAd0SU1FB+UKGxQqMvtmfqoAAACtSURBVBjTTY5pG4FwEMQ3ciZHROQKOXNGrty3+f7fB/17yr7amWd2fktcIEje8KEwRRD1nFgcAiVEJFNMpzOQskQ5GXnHKXBQir+lpKJcIarWUNdYNNdAk1oCJN3tanfQ7fUhaR5tYIjAUPfxNBoDk389bczkiDn3dBw1zVCRXzBtLaFo1F6tYTr/8BvG39oidt8ri8P+wKIrFccTcThf3K7rTcWd8Hj6OPv1/gDxhRa0nMQ5ywAAAABJRU5ErkJggg==" />
+               </svg></div>
+        </div>
+        <div class="popup__mobile">
+            <img src="./img/img_mob.png" alt="mob_img" class="mobile-img">
+            <div class="popup__close-button"><svg 
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="5.644mm" height="5.644mm">
+               <image  x="0px" y="0px" width="16px" height="16px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA51BMVEXvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxvvGxv///+vk+4fAAAAS3RSTlMAyYQLKrqY94Mry8pw9IkILc7PNnT1ginULnL5hwUszdAz/YElMQNz+Ju/BGvAKOWWxO1/Bwkmx3b2yAF3hdUwfgrROAJ5i9M1+9kzHIP9AAAAAWJLR0RM928Q8wAAAAd0SU1FB+UKGxQqMvtmfqoAAACtSURBVBjTTY5pG4FwEMQ3ciZHROQKOXNGrty3+f7fB/17yr7amWd2fktcIEje8KEwRRD1nFgcAiVEJFNMpzOQskQ5GXnHKXBQir+lpKJcIarWUNdYNNdAk1oCJN3tanfQ7fUhaR5tYIjAUPfxNBoDk389bczkiDn3dBw1zVCRXzBtLaFo1F6tYTr/8BvG39oidt8ri8P+wKIrFccTcThf3K7rTcWd8Hj6OPv1/gDxhRa0nMQ5ywAAAABJRU5ErkJggg==" />
+               </svg>
+            </div>
+            <h1>Получите набор файлов для руководителя:</h1>
+            <form class="form form__mobile">
+                <label for="form-email">Введите Email для получения файлов:</label>
+                <input type="email" name="email" placeholder="E-mail" id="form-email">
+                <label for="form-phone">Введите телефон для подтверждения доступа:</label>
+                <input type="tel" name="phone" placeholder="+7 (000) 000-00-00" required="required" minlength="17" class="form__phone-field form__phone-field-mobile" id="form-phone">
+                <button type="submit" class="form__submit">
+                    <span>Скачать файлы</span>
+                    <img src="./img/pointer.png" alt="pointer">
+                </button>
+            </form>
+        </div>
+    </div> 
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./popup.js"></script>
+</body>
+</html>
